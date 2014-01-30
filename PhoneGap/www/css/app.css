@@ -1,0 +1,102 @@
+﻿
+.page-splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    opacity: 0.2;
+    pointer-events: auto;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: opacity 0.1s linear;
+    -moz-transition: opacity 0.1s linear;
+    -o-transition: opacity 0.1s linear;
+    transition: opacity 0.1s linear;
+}
+
+.page-splash-message {
+    text-align: center;
+    margin: 10% 0 0 0;
+    font-size: 250%;
+    font-weight: normal;
+    -webkit-text-shadow: 2px 2px rgba(0, 0, 0, 0.15);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.15);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: monospace;
+    color: #194D7B;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+.visited {
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+/***************************/
+/* Toastr overrides      */
+
+.toast { font-weight: normal; }
+
+.toast-info { background-color: #194D7B; }
+
+.toast-bottom-right { bottom: 110px; }
+
+.navbar-content-center { text-align: center; }
+
+
+/***************************/
+/* Boostrap overrides      */
+
+html, body {
+    height: 100%;
+}
+
+#wrap {
+    height: auto !important;
+    margin: 0 auto -60px;
+    min-height: 100%;
+    padding: 0 0 60px;
+}
+#footer {
+    background-color: #F5F5F5;
+    height: 160px;
+}
+#wrap > .container {
+    padding: 10px 15px 0;
+}
+#footer > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar-header {
+    float: none;
+    padding: 10px;
+    width: 100%;
+}
+.navbar-brand {
+    float: none;
+    font-size: 20pt;
+}
+#bottomNav {
+    padding: 10px;
+}
+#bottomNav a {
+    color: #DDDDDD;
+    font-size: 20pt;
+    text-decoration: none;
+}
+#bottomNav a:hover {
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 640px) {
+    .page-splash-message { font-size: 150%; }    
+}
