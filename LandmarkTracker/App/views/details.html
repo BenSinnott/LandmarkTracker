@@ -1,11 +1,26 @@
-﻿<section>    
-    <div class="well well-sm container"><p class="pull-left visited"><span class="strong pull-left" data-bind="text: title"></span><span class="pull-left">&nbsp;</span><span class="pull-left">Visited <span data-bind="text: count"></span> times</span></p><button data-bind="click: visit" class="btn pull-right">Visit</button></div>
-    <div class="thumbnail">
-        <img src="content/images/mount.jpg"/>        
+﻿<section>
+    
+    <div class="row">        
+        <div class="col-md-8">
+            <h1 data-bind="text: title" class="pull-left"></h1>    
+        </div>
+        <div class="col-md-4">
+            <button class="btn btn-primary btn-lg pull-right" type="button" data-bind="click: visit">
+                Visited <span class="badge" data-bind="text: count"></span> times
+            </button>
+        </div>                
     </div>
-    <p class="lead">
-        Stroll across the causeway where a legendary giant once walked. Follow the footsteps of pilgrims. Boat hop to an island where modern life meets layers of history. Discover a medieval castle, a sub-tropical paradise and a close-knit island community. Delve into the history of a fortress, a priory, a harbour and a home. 
-        <br/>
-        Stray from the mainland on foot or by boat and get up close to the beguiling beauty of the castle-topped isle standing proud in Mount’s Bay. Come ashore for a family outing, a tour of the castle or a garden visit. Scale the fairytale turrets for dazzling views. Listen to live music on the village green. Tuck into fresh local food in the Island Café or the Sail Loft Restaurant.
-    </p>    
+    
+    <div class="row text-center top-buffer">
+        <img class="img-responsive img-thumbnail img-rounded" src="content/images/mount.jpg" />
+    </div>
+    
+    <div class="top-buffer">
+        <p class="lead">
+            Stroll across the causeway where a legendary giant once walked. Follow the footsteps of pilgrims. Boat hop to an island where modern life meets layers of history. Discover a medieval castle, a sub-tropical paradise and a close-knit island community. Delve into the history of a fortress, a priory, a harbour and a home.
+            <br />
+            Stray from the mainland on foot or by boat and get up close to the beguiling beauty of the castle-topped isle standing proud in Mount’s Bay. Come ashore for a family outing, a tour of the castle or a garden visit. Scale the fairytale turrets for dazzling views. Listen to live music on the village green. Tuck into fresh local food in the Island Café or the Sail Loft Restaurant.
+        </p>
+    </div>
+   
 </section>

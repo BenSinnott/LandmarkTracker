@@ -1,11 +1,26 @@
 ﻿<section>
-<div class="well well-sm container"><p class="pull-left visited"><span class="strong pull-left" data-bind="text: title"></span><span class="pull-left">&nbsp;</span><span class="pull-left">Visited <span data-bind="text: count"></span> times</span></p><button data-bind="click: visit" class="btn pull-right">Visit</button></div>
-    <div class="thumbnail">
-        <img src="content/images/eden.jpg"/>
+
+    <div class="row">
+        <div class="col-md-8">
+            <h1 data-bind="text: title" class="pull-left"></h1>
+        </div>
+        <div class="col-md-4">
+            <button class="btn btn-primary btn-lg pull-right" type="button" data-bind="click: visit">
+                Visited <span class="badge" data-bind="text: count"></span> times
+            </button>
+        </div>
     </div>
-    <p class="lead">All life of Earth depends upon the survival of the plants that surround us - each day of our lives, we use plants from every continent on the planet.
-<br/>
-The Eden Project is a gateway into this fascinating interactive world of plants and people, a living Theatre, exploring our global garden inheritance - revealing plants, as you've never seen them before.
-<br/>
-The Eden Project is a truly unique experience, in the heart of Cornwall's Clay Mining country - a place to explore the amazing relationship that exists between the human population and the fascinating world of plants - and the extent that we depend on plants for our very existence.</p>    
+
+    <div class="row text-center top-buffer">
+        <img class="img-responsive img-thumbnail img-rounded" src="content/images/eden.jpg" />
+    </div>
+
+    <div class="top-buffer">
+        <p class="lead">            
+            The Eden Project is a gateway into this fascinating interactive world of plants and people, a living Theatre, exploring our global garden inheritance - revealing plants, as you've never seen them before.
+            <br />
+            The Eden Project is a truly unique experience, in the heart of Cornwall's Clay Mining country - a place to explore the amazing relationship that exists between the human population and the fascinating world of plants - and the extent that we depend on plants for our very existence.        
+        </p>
+    </div>
+
 </section>
